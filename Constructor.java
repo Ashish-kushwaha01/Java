@@ -1,8 +1,8 @@
 package Java;
 import java.util.*;
-class A{
+class B{
     int a;  String name ;
-    A(){
+    B(){
         a=0; name= null;
     }
     void show() {
@@ -11,7 +11,7 @@ class A{
 }
  class Constructor {
     public static void main(String[] args) {
-        A ref=new A();
+        B ref=new B();
         ref.show();
     
 }
