@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Celcius {
+public class Fahrenheit {
     public static void main(String[] args) {
         float f;
         Scanner sc=new Scanner(System.in);
