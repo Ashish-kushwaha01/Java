@@ -6,7 +6,7 @@ public class Factorial {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your no. : ");
         n=sc.nextInt();
-        int i=1;
+        int i=n;
         int fact=0;
         
         while (n!=i) {
@@ -17,7 +17,8 @@ public class Factorial {
                 fact*=n;
                 i--;
             }
+             System.out.println("Factorial is : "+fact);
         }
-        System.out.println("Factorial is : "+fact);
+       
     }
 }
