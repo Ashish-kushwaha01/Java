@@ -17,6 +17,10 @@ public class Roots {
         c=sc.nextInt();
 
         int d = (b*b)-4*a*c;
-        int s = sqrt(d)
+       double s1 = -b + Math.sqrt(d);
+      double s2= -b - Math.sqrt(d);
+
+        System.out.println (" Root 1 :  "+s1/(2*a)  );
+         System.out.println("Root 2 : " +s2/(2*a));
     }
 }
