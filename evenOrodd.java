@@ -1,5 +1,5 @@
 import java.util.*;
-public class EvenOrOdd {
+public class evenOrodd {
             public static void main(String[] args) {
                 int a;
                 Scanner sc=new Scanner(System.in);
