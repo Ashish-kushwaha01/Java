@@ -2,7 +2,7 @@
 package collegeActivity;
 import java.util.Scanner;
 
-public class Fibonacci{
+public class Fibo{
     public static void main(String[] args) {
         int n;
         Scanner sc=new Scanner(System.in);
