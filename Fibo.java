@@ -1,5 +1,5 @@
 /*Java Program to display Fibonacci Series using While Loop. */
-package collegeActivity;
+
 import java.util.Scanner;
 
 public class Fibo{
