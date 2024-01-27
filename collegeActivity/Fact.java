@@ -1,6 +1,8 @@
+package collegeActivity;
+
 import java.util.Scanner;
 
-public class Factorial {
+public class Fact {
     public static void main(String[] args) {
         int n;
         Scanner sc=new Scanner(System.in);
