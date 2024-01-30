@@ -11,11 +11,11 @@ public class Left_Triangle {
         n= sc.nextInt();
 
         for(int i=0;i<n;i++){
-            for(int j=0;j<n-i;j++){
+            for(int j=0;j<2*(n-i);j++){
                 System.out.print(" ");
             }
             for(int j=0;j<=i;j++){
-                System.out.print(" *");
+                System.out.print("* ");
             }
             System.out.println("");
         }
