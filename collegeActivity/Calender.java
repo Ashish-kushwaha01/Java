@@ -1,24 +1,22 @@
 package collegeActivity;
 
 import java.util.Scanner;
-
-    //  public static void show (){
-    //     for(int l=1;l<=1;l++){
-    //         System.out.print("Sun\s");
-    //         System.out.print("Mun\s");
-    //         System.out.print("Tue\s");
-    //         System.out.print("Wed\s");
-    //         System.out.print("Thur\s");
-    //         System.out.print("Fri\s");
-    //         System.out.print("Sat\s");
-    //        }
-    // }
-
-
-
-
-
 public class Calender {
+     public static void show (){
+        for(int l=1;l<=1;l++){
+            System.out.print("Sun\s");
+            System.out.print("Mun\s");
+            System.out.print("Tue\s");
+            System.out.print("Wed\s");
+            System.out.print("Thur\s");
+            System.out.print("Fri\s");
+            System.out.print("Sat\s");
+           }
+    }
+
+    
+
+
     public static void main(String[] args) {
         int year;
         Scanner in= new Scanner(System.in);
@@ -48,15 +46,8 @@ public class Calender {
         
        if(i==0){
         System.out.println("January has "+month[i]+ " days.");
-        for(int l=1;l<=1;l++){
-            System.out.print("Sun\s");
-            System.out.print("Mun\s");
-            System.out.print("Tue\s");
-            System.out.print("Wed\s");
-            System.out.print("Thur\s");
-            System.out.print("Fri\s");
-            System.out.print("Sat\s");
-           }
+        show();
+    
        System.out.println("");
         for(int j=0;j<5;j++){
             for(int k= (7*j)+1;k<=7*(j+1);k++){
@@ -77,10 +68,14 @@ public class Calender {
             }
         
        }
+                  
+    
         else if  (i==1){  
               System.out.println("\n");
             System.out.println("February has "+month[i]+ " days.");
-       
+       show();
+       System.out.println("");
+
             for(int j=0;j<5;j++){
                 for(int k= (7*j)+1;k<=7*(j+1);k++){
                    
@@ -101,7 +96,9 @@ public class Calender {
             
         } else if  (i==2){System.out.println("\n");
             System.out.println("March has "+month[i]+ " days.");
-            
+            show();
+           System.out.println("");
+
             for(int j=0;j<5;j++){
                 for(int k= (7*j)+1;k<=7*(j+1);k++){
                    
@@ -123,7 +120,9 @@ public class Calender {
         } else if  (i==3){ 
             System.out.println("\n");
             System.out.println("April has "+month[i]+ " days.");
-           
+           show();
+           System.out.println("");
+
             for(int j=0;j<5;j++){
                 for(int k= (7*j)+1;k<=7*(j+1);k++){
                    
@@ -145,7 +144,8 @@ public class Calender {
         } else if  (i==4){
             System.out.println("\n");
             System.out.println("May has "+month[i]+ " days.");
-            
+            show();
+            System.out.println("");
             for(int j=0;j<5;j++){
                 for(int k= (7*j)+1;k<=7*(j+1);k++){
                    
@@ -167,7 +167,9 @@ public class Calender {
         } else if  (i==5){
             System.out.println("\n");
             System.out.println("June has "+month[i]+ " days.");
-            
+            show();
+           System.out.println("");
+
             for(int j=0;j<5;j++){
                 for(int k= (7*j)+1;k<=7*(j+1);k++){
                    
@@ -189,7 +191,9 @@ public class Calender {
         } else if  (i==6){
             System.out.println("\n");
             System.out.println("July has "+month[i]+ " days.");
-            
+            show();
+           System.out.println("");
+
             for(int j=0;j<5;j++){
                 for(int k= (7*j)+1;k<=7*(j+1);k++){
                    
@@ -211,7 +215,9 @@ public class Calender {
         } else if  (i==7){ 
             System.out.println("\n");
             System.out.println("August has "+month[i]+ " days.");
-           
+           show();
+           System.out.println("");
+
             for(int j=0;j<5;j++){
                 for(int k= (7*j)+1;k<=7*(j+1);k++){
                    
@@ -233,7 +239,9 @@ public class Calender {
         } else if  (i==8){
             System.out.println("\n");
             System.out.println("September has "+month[i]+ " days.");
-            
+            show();
+           System.out.println("");
+
             for(int j=0;j<5;j++){
                 for(int k= (7*j)+1;k<=7*(j+1);k++){
                    
@@ -255,7 +263,9 @@ public class Calender {
         } else if  (i==9){ 
             System.out.println("\n");
             System.out.println("October has "+month[i]+ " days.");
-           
+           show();
+           System.out.println("");
+
             for(int j=0;j<5;j++){
                 for(int k= (7*j)+1;k<=7*(j+1);k++){
                    
@@ -277,7 +287,9 @@ public class Calender {
         } else if  (i==10){ 
              System.out.println("\n");
            System.out.println("November has "+month[i]+ " days.");
-         
+         show();
+         System.out.println("");
+
             for(int j=0;j<5;j++){
                 for(int k= (7*j)+1;k<=7*(j+1);k++){
                    
@@ -299,6 +311,8 @@ public class Calender {
         } else if  (i==11){ 
             System.out.println("\n");
             System.out.println("December  has "+month[i]+ " days.");
+           show();
+           System.out.println("");
            
             for(int j=0;j<5;j++){
                 for(int k= (7*j)+1;k<=7*(j+1);k++){
