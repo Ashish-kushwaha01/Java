@@ -2,17 +2,17 @@ package collegeActivity;
 
 import java.util.Scanner;
 
-     public static void show (){
-        for(int l=1;l<=1;l++){
-            System.out.print("Sun\s");
-            System.out.print("Mun\s");
-            System.out.print("Tue\s");
-            System.out.print("Wed\s");
-            System.out.print("Thur\s");
-            System.out.print("Fri\s");
-            System.out.print("Sat\s");
-           }
-    }
+    //  public static void show (){
+    //     for(int l=1;l<=1;l++){
+    //         System.out.print("Sun\s");
+    //         System.out.print("Mun\s");
+    //         System.out.print("Tue\s");
+    //         System.out.print("Wed\s");
+    //         System.out.print("Thur\s");
+    //         System.out.print("Fri\s");
+    //         System.out.print("Sat\s");
+    //        }
+    // }
 
 
 
@@ -80,7 +80,7 @@ public class Calender {
         else if  (i==1){  
               System.out.println("\n");
             System.out.println("February has "+month[i]+ " days.");
-        ref.show();
+       
             for(int j=0;j<5;j++){
                 for(int k= (7*j)+1;k<=7*(j+1);k++){
                    
