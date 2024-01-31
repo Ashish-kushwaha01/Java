@@ -13,7 +13,12 @@ public class Occurance {
         System.out.println("Leng(th of my string is  : "+len);
 
         System.out.println("Which character do you want to search : ");
-        String ch=sc.toString();
+        char ch=sc.nextCharacter();
+        int count =0;
+        if(ch==str){
+            count++;
+        }
+        System.out.println("Occurance of your character : "+count);
 
     }
 }
