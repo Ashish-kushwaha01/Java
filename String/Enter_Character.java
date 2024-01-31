@@ -7,6 +7,7 @@ public class Enter_Character {
         Scanner sc = new Scanner(System.in);
         char ch;
         System.out.println("Which character do you want to show ? :");
-        ch=sc.skip();
+        ch=sc.next().charAt(0);
+        System.out.println("Your character is  : "+ch);
     }
 }
