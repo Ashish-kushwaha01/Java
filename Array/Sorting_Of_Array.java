@@ -27,6 +27,7 @@ public class Sorting_Of_Array {
                 arr[i]= arr[j];
                 arr[j]= temp;
             }
+           
         }
         System.out.print(arr[i]+" \s\s");
     }
