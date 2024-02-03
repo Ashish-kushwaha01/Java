@@ -14,7 +14,7 @@ public class Occurance {
         // System.out.println("Which charactr do you want to search ? : ");
         // ch=sc.next().charAt(0);
 
-        int Now_Strlen= str.replace("s", "").length();
+        int Now_Strlen= str.replace("s4", "").length();
         int count = strlen - Now_Strlen;
 
         System.out.println("Total no. of given character in my string is : "+count);
