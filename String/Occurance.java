@@ -1,24 +1,22 @@
 package String;
+// Multiple occurence of a character.
 
 import java.util.Scanner;
 
 public class Occurance {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String str;
-        System.out.println("Enter your string : ");
+        String str = "Ashish Kushwaha";
+        int strlen = str.length();
+        System.out.println("Length of my string is  : "+strlen);
         
-            str=sc.nextLine();
-        int len=str.length();
-        System.out.println("Leng(th of my string is  : "+len);
+        char ch;
+        // System.out.println("Which charactr do you want to search ? : ");
+        // ch=sc.next().charAt(0);
 
-        System.out.println("Which character do you want to search : ");
-        char ch=sc.nextCharacter();
-        int count =0;
-        if(ch==str){
-            count++;
-        }
-        System.out.println("Occurance of your character : "+count);
+        int Now_Strlen= str.replace("s", "").length();
+        int count = strlen - Now_Strlen;
 
+        System.out.println("Total no. of given character in my string is : "+count);
     }
 }
