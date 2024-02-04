@@ -38,8 +38,10 @@ public class Find_Index {
        
         char k=sc.next().charAt(0);
         
- System.out.println("Which character do you want to change :");
-        char k=sc.next().charAt(0);
+ System.out.println("In which character do you want to change your character "+k);
+        char p=sc.next().charAt(0);
+
+        System.out.println(str1.replace(p,k));
     }
 
     
