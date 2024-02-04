@@ -14,12 +14,18 @@ public class Find_Index {
         System.out.println("Which character do you want to search ? : ");
         char ch=sc.next().charAt(0);
 
+
+        // occurence 
+
+
         System.out.println(str.indexOf(ch));
 
         System.out.println(str.indexOf(ch,str.indexOf(ch)+1));
         
         System.out.println(str.indexOf(ch, str.indexOf(ch,str.indexOf(ch)+1)+1));
         System.out.println(str.indexOf(ch, str.indexOf(ch, str.indexOf(ch,str.indexOf(ch)+1)+1)+1) );
+
+// What is the given value at given index .
 
         System.out.println("Enter the index : ");
         int i=sc.nextInt();
@@ -41,7 +47,7 @@ public class Find_Index {
  System.out.println("In which character do you want to change your character "+k);
         char p=sc.next().charAt(0);
 
-        System.out.println(str1.replace(p,k));
+        System.out.println(str1.replace(p,k)); // replace old character into a new character .
     }
 
     
