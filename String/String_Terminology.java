@@ -2,7 +2,7 @@ package String;
 
 import java.util.Scanner;
 
-public class Find_Index {
+public class String_Terminology {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String str,str1;
@@ -10,6 +10,8 @@ public class Find_Index {
         str=sc.nextLine();
          System.out.println("Enter your second string : ");
          str1=sc.nextLine();
+
+         // Enter a given character .
 
         System.out.println("Which character do you want to search ? : ");
         char ch=sc.next().charAt(0);
