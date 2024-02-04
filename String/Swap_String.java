@@ -17,7 +17,7 @@ public class Swap_String {
             s1= s1.concat(s2);
             s2=s1.substring(0, len);
             s1=s1.substring(len, s1.length());
-
+// displaying
             System.out.println("First string is : "+s1);
             System.out.println("Second string is : "+s2);
 
