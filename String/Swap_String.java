@@ -13,7 +13,8 @@ public class Swap_String {
         
         System.out.println("Enter your second string : ");
         s2=sc.nextLine();
-
+  // Swapping .
+  
             s1= s1.concat(s2);
             s2=s1.substring(0, len);
             s1=s1.substring(len, s1.length());
