@@ -19,7 +19,7 @@ public class Roots {
         int d = (b*b)-4*a*c;
        double s1 = -b + Math.sqrt(d);
       double s2= -b - Math.sqrt(d);
-
+// Finding roots 
         System.out.println (" Root 1 :  "+s1/(2*a)  );
          System.out.println("Root 2 : " +s2/(2*a));
     }
