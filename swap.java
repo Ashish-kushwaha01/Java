@@ -10,7 +10,7 @@ public class swap {
         a=s.nextInt();
         System.out.println("Enter your second no. : ");
         b=s.nextInt();
-
+// Swapping 
         c=a;
         a=b;
         b=c;
