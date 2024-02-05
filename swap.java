@@ -14,7 +14,7 @@ public class swap {
         c=a;
         a=b;
         b=c;
-
+// displaying 
         System.out.println( "After swapping : ");
         System.out.println("My first no is : "+a);
         System.out.println("My second no is : "+b);
