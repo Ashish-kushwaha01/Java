@@ -18,14 +18,14 @@ public class Occurance {
         ch=sc.next().charAt(0);
        
        for(int j=0;j<str.length();j++){
-         for(int i=65;i<=122;i++){
-            if((int)ch==i){
+         
+            if(ch==str.charAt(j)){
                 count++;
-            }
+            
             }
               continue;
         }
-        System.out.println("Your given characte ("+ch+") is : "+count+" times");
+        System.out.println("Your given character ("+ch+") is : "+count+" times");
        
     }
 }
