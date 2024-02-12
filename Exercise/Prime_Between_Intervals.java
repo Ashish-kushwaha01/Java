@@ -22,6 +22,7 @@ public class Prime_Between_Intervals {
         a=sc.nextInt();
         b=sc.nextInt();
         System.out.println("Prime no. between a and b is : ");
+        System.out.println("Prime no. between a and b is  : ");
        for(int i=a;i<=b;i++){
         if(Prime(i)==0){
             System.out.print(i+" ");
