@@ -6,13 +6,10 @@ public class Fibonacci_Using_Recursion {
     public static int Fibo(int n){
        int  result =0;
         if(n==2)
-        // System.out.println(1);
         result=1;
         if(n==1)
         result=0;
-        // System.out.println(0);
         if(n>=3)
-        // System.out.println();
          result = Fibo(n-1)+ Fibo(n-2);
         
         return result;
