@@ -31,24 +31,7 @@ class Large{
 //             if(a%b==0){
 //                 hcf=b;
 //                 break;
-                
-//             }else{
-//                 a=a%b;
-//             }
-//         }
-//         else{
-//             if(b%a==0){
-//                 hcf = a;
-//                 break;
-//             }
-//             else{
-//                 b=b%a;
-//             }
-//         }
-//         }
-//         System.out.println("HCF of this two no. is : " +hcf);
-//     }
-
+  
 public static int HCF(int a, int b){
     if(a!=b){
         if(a>b){
@@ -69,7 +52,6 @@ public static void main(String[] args) {
     b=sc.nextInt();
 
     System.out.println("HCF of "+a+" and "+b+" is : "+HCF(a, b));
-    // System.out.println(HCF(a, b));
     
 }
 
