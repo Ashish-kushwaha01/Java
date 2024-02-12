@@ -19,6 +19,10 @@ public static int HCF(int a, int b){
     return a;
 }
 
+
+// SECOND METHOD . 
+
+
 public static int GCD(int a,int b){
     if(a<b && b%a==0)
     return a;
