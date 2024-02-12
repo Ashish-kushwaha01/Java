@@ -13,14 +13,7 @@ class Large{
 //     else
 //         System.out.println(b);
     
-//     }
-// }
-// public class HCF {
-//     public static void main(String[] args) {
-//         int a,b,hcf;
-//         Scanner sc=new Scanner(System.in);
-//         System.out.println("Enter your first no. : ");
-//         a=sc.nextInt();
+
 
 public static int HCF(int a, int b){
     if(a!=b){
