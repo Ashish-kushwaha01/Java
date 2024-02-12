@@ -21,17 +21,7 @@ class Large{
 //         Scanner sc=new Scanner(System.in);
 //         System.out.println("Enter your first no. : ");
 //         a=sc.nextInt();
-//         System.out.println("Enter your second no. : ");
-//         b=sc.nextInt();
-        
-//         int temp1 = a;
-//         int temp2 = b;
-//         while(true){
-//             if(a>b){
-//             if(a%b==0){
-//                 hcf=b;
-//                 break;
-  
+
 public static int HCF(int a, int b){
     if(a!=b){
         if(a>b){
