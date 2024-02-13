@@ -23,17 +23,17 @@ public static int HCF(int a, int b){
 // SECOND METHOD . 
 
 
-// public static int GCD(int a,int b){
-//     if(a<b && b%a==0)
-//     return a;
-//     if(b<a && a%b==0) return b;
-//     while (b>0){
-//         int temp=b;
-//         b=b%a;
-//         a=temp;
-//     }
-//     return b;
-// }
+public static int GCD(int a,int b){
+    if(a<b && b%a==0)
+    return a;
+    if(b<a && a%b==0) return b;
+    while (b>0){
+        int temp=b;
+        b=b%a;
+        a=temp;
+    }
+    return b;
+}
 
 
 
