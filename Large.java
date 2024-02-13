@@ -36,17 +36,7 @@ public static int HCF(int a, int b){
 // }
 
 
-// NEXT METHOD .
 
-public static int GCD(int a, int b){
-    int min=Math.min(a, b);
-   for(int i=min;i>=1;i++){
-    if(a%i==0 && b%i==0)
-    min=i;
-   }
-   return min;
-    
-}
 public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     int a, b;
