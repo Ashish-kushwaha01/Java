@@ -4,7 +4,7 @@ import java.util.Scanner;
 class Large{
 
     
-//   First Method .
+//   First Method Using Recursion .
 
 public static int HCF(int a, int b){
     if(a!=b){
@@ -31,7 +31,6 @@ public static void main(String[] args) {
 
     System.out.println("HCF of "+a+" and "+b+" is : "+HCF(a, b));
     
-    System.out.println("HCF of "+a+" and "+b+" is : "+GCD(a, b));
     
 }
 
